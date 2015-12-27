@@ -1,5 +1,7 @@
 
 
+package tr.aalci
+
 class AuxilaryConstructor (forename: String, initial: String = "", surname:String) {
   val fullname = if (initial != null && !initial.isEmpty)
      forename + " " + initial + ". " + surname

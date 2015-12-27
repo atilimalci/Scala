@@ -1,5 +1,7 @@
 
 
+package tr.aalci
+
 class ClassExample(val name:String, val address: String) {
   private var _id = ""
   
