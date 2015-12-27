@@ -39,6 +39,6 @@ object Loops {
     while (x>0) {
       println (s"${x}")
       x -=1
-    }
+    } 
   }
 }
